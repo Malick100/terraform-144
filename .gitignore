@@ -1,40 +1,18 @@
-.terraform
-# Terraform directories
+# Terraform
 .terraform/
-**/.terraform/*
-
-# Terraform state files
 *.tfstate
 *.tfstate.*
-*.tfstate.backup
-
-# Terraform variable files
-*.tfvars
-*.tfvars.json
-*.auto.tfvars
-*.auto.tfvars.json
-
-# Terraform crash logs
+*.tfplan
 crash.log
 crash.*.log
 
-# Sensitive credentials
-*.pem
-*.key
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Credentials and secrets
 .env
 .env.*
-
-# Terraform plans
-*.tfplan
-*.plan
-
-# Local override files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Editor files
-.vscode/
-.idea/
-.DS_Store
+*.pem
+*.key
+credentials
